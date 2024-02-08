@@ -60,7 +60,7 @@ describe('SevenDigitBlockComponent', () => {
     ).toContain('on');
   });
 
-  it('integration test : calling A (79) with the service should have off only on 6th on for che rest', () => {
+  it('integration test : calling A (119) with the service should have "off" only on 6th "on" for the rest', () => {
     testHostComponent.byte = 119; // 0b1110111
     testHostFixture.detectChanges();
 

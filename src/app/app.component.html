@@ -1,3 +1,5 @@
-<section>
-  <seven-digit-block></seven-digit-block>
+<section class="board">
+
+  <seven-digit-block class="digit-block" *ngFor="let byte of bytes" [byte]="byte"></seven-digit-block>
+
 </section>
